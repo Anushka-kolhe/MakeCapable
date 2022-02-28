@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="UTF-8">
+   <title>DONATE US</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="donate.css">
+</head> 
+  <div class="text-content">
+    <h2 style="text-align: center;">DONATION FORM</h2>
+    <form action="donate.php" class="form" method="post">
+      <a style="color: white"><i class="fa fa-user"></i> &nbsp;&nbsp;Full Name</a>
+            <input type="text" name="name" maxlength="30" placeholder="Enter Full Name" required>
+      <a style="color: white"><i class="fa fa-envelope"></i> &nbsp;&nbsp;E-mail</a>
+            <input type="email" name="email" placeholder="Enter E-mail" required>
+      <a style="color: white"><i class="fas fa-mobile-alt"></i> &nbsp;&nbsp; Phone Number </a>
+            <input type="text" name="phone" placeholder="Enter Phone Number" max="10" required>
+      <a style="color: white"><i class="fas fa-rupee-sign"></i> &nbsp;&nbsp;Amount</a>
+      <textarea type="text" name="amount" placeholder="Enter Donation amount" required></textarea>
+            <button name="save">DONATE NOW</button>
+        </form>
+  </div>
+</html>
